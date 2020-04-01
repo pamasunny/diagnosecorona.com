@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Guide on COVID-19 - Diagnose Corona</title>
+       <meta name="description" content="The Guide on Coronavirus to help you out with true information and facts about virus busting all hoax with upcoming real-time news ">
+       <link rel="icon" href="/icons/favicon-16x16.png" type="image/gif" sizes="16x16">
+       <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+       <link rel="stylesheet" href="/main.css">
+       <link rel="stylesheet" href="/blog.css">
+       
+       
+       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+
+
+       <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous">
+        </script>
+
+        
+        
+
+    </head>
+    <body>
+        <div class="nav_bar">
+                <div class="container">
+                    
+                        <a class="logo_icon col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9" href="/">
+                    <img src="/icons/favicon-32x32.png" alt="logo-icon">
+                        </a>
+                        
+                        
+                        <ul id="nav_icon">
+                                                   
+                            <li class="">
+                                <a class="article_icon col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1" href="#article" data-tool-tip="Article">
+                                    <i class="fa fa-newspaper-o" aria-hidden="true" style="color: white"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="dashboard_icon col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1" href="#">
+                                    <i class="fa fa-line-chart" aria-hidden="true" style="color: white"></i>
+
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="contact_icon col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1" href="#about">
+                                    <i class="fa fa-id-card-o" aria-hidden="true" style="color: white"></i>
+
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars" aria-hidden="true" style="color: white"></i>
+                        </a>
+                
+                </div>
+            </div>
+
+   <div class="error" style="height:50vh;margin:10em 1em;text-align:center">
+        <h1>404 PAGE NOT FOUND <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+        </h1>
+        <h2>The Page You Are Looking For May Be Broken Or May Have Removed.</h2>
+       <p><a href="/index.php" style="color:#999997">Go To HomePage  <i class="fa fa-home" aria-hidden="true" style="font-size:1.3em"></i>
+       </a></p>
+    </div>
+    <div id="about" class="footer_close">
+            <div class="container">
+               <div class="footer_struct">
+                   <h2 class="">DiagnoseCorona</h2>
+                    <h5><img src="/icons/favicon-32x32.png" alt="contact-icon">care@diagnosecorona.com</h5>   
+                        <p class="">&#169; 2020 diagnosecorona.com ALL RIGHTS RESERVED</p>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="newsletter_id">
+                <div class="newsletter_head">Get Updated With Our News Alert!</div>
+                <div class="newsletter_body">
+                                           <span>Join Us by Sign Up! for our newsletter to</span>
+                                            <span>stay updated about all information</span>
+                                            <span>to prevent yourself from COVID-19.</span>
+                            </div>
+                <form method="POST" action="newsletter.php">
+                    <input type="text" name="name" placeholder="FullName" required>
+                    <input type="text" name="email" placeholder="E-Mail" required>
+                    <div class="button_subs">
+                    <input type="submit" name="submit" value="Subscribe">
+                    </div>
+                </form>
+                <div class="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+            </div> 
+   
+        
+    <script src="main.js" type="text/javascript"></script>
+    </body>
+</html>
